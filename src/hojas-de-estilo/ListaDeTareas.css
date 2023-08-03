@@ -1,0 +1,7 @@
+.tareas-lista-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 55px;
+  justify-content: center;
+  margin-top: 15px;
+}

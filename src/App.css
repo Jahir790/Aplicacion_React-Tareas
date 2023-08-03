@@ -1,0 +1,50 @@
+* {
+  margin: 0; /* Margen */
+  padding: 0;
+  box-sizing: border-box; /* Calcula el tamaño de la caja, del elemento */
+}
+
+html,
+body {
+  color: white; /* Color de texto */
+  background-color: #1b1b32; /* Color de fondo */
+  font-family: Roboto, sans-serif; /* Tipo de Letra y letra de respaldo */
+  margin-top: 40px; /* Margen superior */
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 95px;
+  font-family: cursive, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.aplicacion-tareas {
+  display: flex; /* flex-box */
+  flex-wrap: wrap; /*Los elementos no se ajusten a una linea y fluya hacia abajo*/
+  justify-content: center; /* Contenido centrado horizontal */
+  align-items: center; /* Contenido centrado vertical */
+}
+/* Logo de freeCodeCamp */
+.freecodecamp-logo-contenedor {
+  width: 100%; /* Ancho */
+  margin: 20px; /* Margen a los 4 extremos */
+  display: flex; /* Flex-box */
+  align-items: center;
+  justify-content: center;
+}
+
+.freecodecamp-logo {
+  width: 100px; /* Ancho */
+  height: 20px; /* Altura */
+}
+
+/* Listas de Tareas*/
+.tareas-lista-principal {
+  width: 2600px; /* Ancho */
+  min-height: 2400px; /* Altura variable */
+  background-color: #d0d0d5; /* Color de fondo */
+  padding: 50px;
+  margin: 20px;
+  border-radius: 56px; /* Bordes redondeados */
+}
